@@ -927,7 +927,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--active-color);
 }
 .modal-form{
- 
+
 }
 .modal-title{
   font-weight: 700;
@@ -944,6 +944,7 @@ margin-bottom: 12px;
 
 
 .modal-form-label{
+  display: block;
 font-weight: 400;
 font-size: 12px;
 line-height: calc(14 / 12);
@@ -1031,9 +1032,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-bottom{
   display: flex;
-  flex-direction: column;
-    align-items: center;
+  align-items: center;
   margin-top: 20px;
+margin-bottom: 30px;
   
 }
 
@@ -1042,7 +1043,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-form-contract{
   display: inline-block;
-  margin-bottom: 30px;
+ 
   color:  var(--text-color);
   font-size: 14px;
 line-height: calc(24 / 14);
@@ -1054,10 +1055,11 @@ letter-spacing: 0.03em;
 }
 .form-check-text{
   display: flex;
-  margin-bottom: 30px;
+  align-items: center;
 
 }
 .form-check-text span {
+
   width: 16px;
   height: 15px;
   border: 2px solid #171a24;
@@ -1089,6 +1091,9 @@ line-height: calc(24 / 14);
 letter-spacing: 0.03em;
 margin-left: 5px;
 
+}
+.form-button{
+ text-align: center;
 }
 .modal-form-button{
   font-family: inherit;
